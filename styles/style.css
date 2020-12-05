@@ -1,0 +1,33 @@
+/* General settings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /* Use REMs on base 10 */
+    scroll-behavior: smooth;
+}
+
+body {
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+/* Screen reader - for accessibility */
+.for-sr {
+    height: 1px;
+    width: 1px;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.container {
+    max-width: 90em;
+    margin: 0 auto;
+}
